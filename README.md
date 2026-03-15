@@ -2,6 +2,14 @@
 
 > A modern Android bike rental app built with Java & SQLite. Dark themed UI with smart booking, in-app wallet, ride tracking, rental history, and profile with camera support.
 
+## ⬇️ Download App
+
+[![Download APK](https://img.shields.io/badge/Download-APK-orange?style=for-the-badge&logo=android)](https://github.com/arcrtic/BikeXpress/releases/download/v1.0/app-debug.apk)
+
+> **Direct Download:** [Click here to download BikeXpress v1.0](https://github.com/arcrtic/BikeXpress/releases/download/v1.0/app-debug.apk)
+
+> ⚠️ Requires Android 7.0 (API 24) or higher — Enable **"Install from Unknown Sources"** in Settings before installing
+
 ---
 
 ## 📸 Screenshots
@@ -84,7 +92,7 @@ During setup, make sure to install:
 
 **Option A — Clone with Git:**
 ```bash
-git clone https://github.com/YOURUSERNAME/BikeXpress.git
+git clone https://github.com/arcrtic/BikeXpress.git
 ```
 
 **Option B — Download ZIP:**
@@ -93,7 +101,7 @@ git clone https://github.com/YOURUSERNAME/BikeXpress.git
 3. Click **`Download ZIP`**
 4. Extract the ZIP to a folder like `D:\BikeXpress`
 
-> ⚠️ **Important:** Do NOT extract to OneDrive, Desktop inside OneDrive, or any cloud-synced folder. Use a local path like `D:\Projects\BikeXpress` to avoid Gradle build errors.
+> ⚠️ **Important:** Do NOT extract to OneDrive or any cloud-synced folder. Use a local path like `D:\Projects\BikeXpress` to avoid Gradle build errors.
 
 ---
 
@@ -119,7 +127,7 @@ You will see **"Gradle sync finished"** at the bottom when done.
 
 ---
 
-### Step 5 — Set Up an Emulator (or use a real device)
+### Step 5 — Set Up an Emulator or Real Device
 
 **Option A — Emulator:**
 1. Click **`Tools → Device Manager`**
@@ -183,7 +191,7 @@ BikeXpress/
 │   │       │   ├── WalletActivity.java        # Wallet + transactions
 │   │       │   ├── ProfileActivity.java       # Profile + camera
 │   │       │   ├── TrackRideActivity.java     # Live ride tracker
-│   │       │   └── BikeListActivity.java      # Bike list (stub)
+│   │       │   └── BikeListActivity.java      # Bike list
 │   │       ├── res/
 │   │       │   ├── layout/                    # All XML layouts
 │   │       │   ├── drawable/                  # Shapes, vectors, icons
@@ -247,8 +255,16 @@ The app uses **SQLite** with 4 tables:
 
 **Archit** — Built as a MAD (Mobile Application Development) project
 
+[![GitHub](https://img.shields.io/badge/GitHub-arcrtic-black?style=for-the-badge&logo=github)](https://github.com/arcrtic)
+
 ---
 
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+  Made with ❤️ by Archit &nbsp;|&nbsp; BikeXpress 🚴
+</div>
